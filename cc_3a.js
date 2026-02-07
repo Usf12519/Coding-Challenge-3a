@@ -1,17 +1,17 @@
 // Step2: Create Customer Objects
 let customers = [{
-    name: 'Alice',
-    email: 'alice1234@example.com',
+    name: "Alice",
+    email: "alice1234@example.com",
     purchases: ["labtop","phone","playstation"],
 },
  {
-    name: 'Brandon',
-    email: 'brandon456@example.com',
+    name: "Brandon",
+    email: "brandon456@example.com",
     purchases: ["apples","bananas","carrots"],
 },
 {
 name: 'Cameron',
-    email: 'Cameron789@example.com',
+    email: "Cameron789@example.com",
     purchases: ["eggs","ice cream","pizza"],
 }];
 
@@ -25,5 +25,19 @@ customers.push(newCustomer);
 console.log(newCustomer);
 customers.shift();
 
-//
+// Step 4: Update Customer Info
+
+customers[2].email = "daniel1234@example.com";
+let customers = [{
+    name: "Alice",
+    email: "alice1234@example.com",
+    purchases: ["labtop","phone","playstation"],
+}];
+let purchases = ["labtop","phone","playstation"];
+purchases.push("Xbox");
+
+// Step 5: Display Customer Information
+
+
+
 
