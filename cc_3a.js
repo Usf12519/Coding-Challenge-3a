@@ -28,16 +28,14 @@ customers.shift();
 // Step 4: Update Customer Info
 
 customers[2].email = "daniel1234@example.com";
-let customers = [{
-    name: "Alice",
-    email: "alice1234@example.com",
-    purchases: ["labtop","phone","playstation"],
-}];
-let purchases = ["labtop","phone","playstation"];
-purchases.push("Xbox");
+let purchases = ["apples","bananas","carrots"];
+purchases.push("deli meat");
+console.log(purchases);
+
 
 // Step 5: Display Customer Information
 
-
+const customers = ["brandon","cameron","daniel"]
+customers.forEach(myFuncton);
 
 
